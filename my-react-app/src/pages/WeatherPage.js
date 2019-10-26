@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import TextLink from '../components/atoms/TextLink';
 import Forecast from '../components/organisms/Forecast';
 import PageTemplate from '../components/templates/PageTemplate';
-import { CURRENT_WEATHER, HOURLY_FORECAST } from '../data/mockWeather';
 
 const WeatherPage = ({ city, temperature, changeCity, forecast, ...props }) => {
   return (
