@@ -1,12 +1,14 @@
 import React from 'react';
-import CurrentWeather from './CurrentWeather';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppContainer from './containers/AppContainer';
 
 function App() {
   return (
-  <div className="App">
-    <CurrentWeather city="London" temperature = "13"/>
-  </div>
+  <Router>
+  <AppContainer />
+  </Router>
   );
 }
+    
 
 export default App;
